@@ -9,7 +9,7 @@ def hello_world():
     getal = 0
     getal += 1
     return "<p>Hello, World!"+str(getal)+"</p>"
-
+#  REST
 @app.route("/tweede/<variabele>")
 def hello_world2(variabele):
-    return "<p>Hello, World!"+str(variabele)+"</p>"
+    return "<p>Hello, Wereld!"+str(variabele)+"</p>"
